@@ -1,0 +1,27 @@
+#table,#tableTwo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+body{
+    background-color: paleturquoise;
+}
+
+h1,#top,#bottom{
+    display: block;
+    text-align: center;
+    margin: 10px auto 20px auto;
+    border: 1px;
+}
+
+#ave,#gradeNeeded{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.fun{
+    position: relative;
+    bottom: 7px;
+}

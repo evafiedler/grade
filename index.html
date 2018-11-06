@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<h1>Calculate Your Grade!!!!!!!!!!!!!</h1>
+<div id="top">
+<div class="fun">Isn't this fun?</div>
+<table id="table">
+    <tr>
+        <th>Homework Grades</th>
+        <th>Homework Weight</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="inOne0" placeholder="90,95,100">
+        </td>
+        <td>
+            <input type="text" id="inTwo0" placeholder="100">
+        </td>
+    </tr>
+
+</table>
+<br>
+<input type="text" id="category" placeholder="Category Name">
+<button onclick="addRow()" class="w3-button w3-circle w3-teal">Add</button><br>
+<br>
+<button onclick="calculateCurrentGrade()" class="w3-button w3-teal">Calculate Grade</button>
+<div id="ave"></div>
+</div>
+
+<div id="bottom">
+<h1>Final Calculator</h1>
+<div class="fun">Isn't this even more fun?</div>
+<table id="tableTwo">
+    <tr>
+        <th>Final Weight</th>
+        <th>Class Grade Wanted</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="final" placeholder="20">
+        </td>
+        <td>
+            <input type="text" id="gradeWanted" placeholder="90">
+        </td>
+    </tr>
+</table>
+<br>
+
+<button onclick="calculateGradeNeeded()" class="w3-button w3-teal">Calculate Grade Needed</button>
+<div id="gradeNeeded"></div>
+</div>
+</body>
+</html>
